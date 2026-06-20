@@ -1,0 +1,30 @@
+# ==============================================================================
+# Gesture Arena — Project Requirements Checklist
+# ==============================================================================
+# Note: This is a Node.js (React + Vite + TypeScript) frontend web application. 
+# It does not run on Python. The list below outlines the software and hardware
+# requirements to develop, build, and run the project locally or in production.
+
+# ------------------------------------------------------------------------------
+# 1. Developer Tooling & Runtimes
+# ------------------------------------------------------------------------------
+Node.js >= 18.0.0      # JavaScript runtime environment
+npm >= 9.0.0          # Node package manager (comes bundled with Node.js)
+
+# ------------------------------------------------------------------------------
+# 2. Key Libraries & Frameworks (Installed via `npm install`)
+# ------------------------------------------------------------------------------
+react >= 19.2.0       # Component library
+typescript >= 5.0.0   # Typed programming language
+vite >= 5.0.0         # Fast compiler and build tool
+tailwindcss >= 4.0.0  # CSS styling framework
+zustand >= 5.0.0      # State management store
+gsap >= 3.12.0        # Animation library
+@mediapipe/tasks-vision >= 0.10.0  # Browser hand-tracking runtime
+
+# ------------------------------------------------------------------------------
+# 3. Client Hardware & Browser Requirements
+# ------------------------------------------------------------------------------
+WebGL 2.0 Compatibility  # Required for GPU rendering and MediaPipe GPU model running
+Webcam / Camera Input    # Needed for real-time gesture tracking (optional fallback to mouse)
+Modern Browser           # Google Chrome, Microsoft Edge, Mozilla Firefox, or Apple Safari
